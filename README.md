@@ -55,3 +55,7 @@ Server runs at localhost:3000.
 Socket.IO handles the bi-directional real-time communication.
 
 Messages instantly appear in the chat window of all clients.
+
+#OUTPUT
+
+![Image](https://github.com/user-attachments/assets/97c300c7-0773-40c2-bb51-079d98ce6499)

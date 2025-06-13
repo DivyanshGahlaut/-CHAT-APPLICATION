@@ -14,7 +14,7 @@
 
 * Project Description
   
-  This Real-time Chat Application is a web-based tool that enables users to send and receive messages instantly using a simple and clean interface. The project is built to demonstrate real-time communication through WebSockets, providing a practical example of how modern chat systems work.
+This Real-time Chat Application is a web-based tool that enables users to send and receive messages instantly using a simple and clean interface. The project is built to demonstrate real-time communication through WebSockets, providing a practical example of how modern chat systems work.
 
 The goal of this project is to create a responsive and interactive user experience, where messages are exchanged in real time without refreshing the page. It can serve as a base for more advanced chat systems that include features like multiple users, authentication, message history, and more.
 
@@ -30,7 +30,7 @@ The goal of this project is to create a responsive and interactive user experien
 
 * How It Works
   
-  Frontend (Client-Side)
+ 1 Frontend (Client-Side)
 
 HTML creates the structure (chat box, input, send button).
 
@@ -40,7 +40,7 @@ JavaScript connects to the server using Socket.IO and listens for messages.
 
 When the user types a message and clicks "Send", it is emitted to the server.
 
-Backend (Server-Side)
+2 Backend (Server-Side)
 
 The Node.js server uses Express to serve the frontend files.
 
@@ -48,7 +48,7 @@ The server uses Socket.IO to establish a WebSocket connection with each client.
 
 When a client sends a message, the server broadcasts it to all connected clients in real time.
 
-Communication Flow
+3 Communication Flow
 
 Server runs at localhost:3000.
 
